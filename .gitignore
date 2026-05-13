@@ -1,2 +1,14 @@
+cat << 'EOF' > .gitignore
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments & IDEs
+venv/
+env/
 .venv/
 .idea/
+EOF
